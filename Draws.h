@@ -6,7 +6,7 @@
 #include "Background.h"
 #include "LogSystem.h"
 #include "Snake_Obj.h"
-#include "Font.h"
+//#include "Font.h"
 #include "DefineTexture.h"
 #include "Texturing.h"
 #include <windef.h>

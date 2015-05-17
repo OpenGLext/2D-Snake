@@ -1,5 +1,4 @@
-//#include <Windows.h>
-#include "D:\\Äâèæêè\freeglut-2.8.1\include\GL\freeglut.h"
+
 #include "InitSystem.h"
 #include "Draws.h"
 #include "Keyboard.h"

@@ -1,0 +1,112 @@
+﻿Build started 17.05.2015 10:43:46.
+     1>Project "D:\GitHub\2D Snake\2D-Snake\Snake-v3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /D NDEBUG InitSystem.cpp Source.cpp
+         InitSystem.cpp
+         Source.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\2D Snake\2D-Snake\Debug\Snake-v3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\2D Snake\2D-Snake\Debug\Snake-v3.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\2D Snake\2D-Snake\Debug\Snake-v3.lib" /MACHINE:X86 /PROFILE Debug\Background.obj
+         Debug\Fructs_.obj
+         Debug\InitSystem.obj
+         Debug\Quad.obj
+         Debug\Snake_Obj.obj
+         Debug\Source.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>Background.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>Source.obj : error LNK2005: "public: __thiscall Font::Font(struct HDC__ *,char *,int,int,int)" (??0Font@@QAE@PAUHDC__@@PADHHH@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "public: __thiscall Font::~Font(void)" (??1Font@@QAE@XZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl BindingText(struct Texture *)" (?BindingText@@YAXPAUTexture@@@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl BindingTexture(struct Texture *)" (?BindingTexture@@YAXPAUTexture@@@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl CreateRenderTexture(struct Texture * const,int,int,int,int)" (?CreateRenderTexture@@YAXQAUTexture@@HHHH@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl DrawBackground(void)" (?DrawBackground@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl DrawFruct(void)" (?DrawFruct@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int __cdecl DrawLogo(float)" (?DrawLogo@@YAHM@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int __cdecl DrawMenu(float,int)" (?DrawMenu@@YAHMH@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl DrawMenu(void)" (?DrawMenu@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl DrawSnake(void)" (?DrawSnake@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl GetStr(char const *,float,int)" (?GetStr@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBDMH@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl GraphicLog(char const *)" (?GraphicLog@@YAXPBD@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl LevelComplete(void)" (?LevelComplete@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl LoadGameOver(void)" (?LoadGameOver@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl LoadReset(void)" (?LoadReset@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl NewDraw(void)" (?NewDraw@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl OutHigh(void)" (?OutHigh@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl OutLogotype(void)" (?OutLogotype@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl ProcessMenu(void)" (?ProcessMenu@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl RenderSnake(void)" (?RenderSnake@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl ResetGame(void)" (?ResetGame@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "void __cdecl ResetLives(void)" (?ResetLives@@YAXXZ) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "public: void __thiscall Font::put(float,float,float,char const *)" (?put@Font@@QAEXMMMPBD@Z) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "public: static float Fruct::Fructs_::PosFructX" (?PosFructX@Fructs_@Fruct@@2MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "public: static float Fruct::Fructs_::PosFructY" (?PosFructY@Fructs_@Fruct@@2MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * h" (?h@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * backtga" (?backtga@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * frtga" (?frtga@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * lf" (?lf@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * logo_" (?logo_@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * buttonMenu_" (?buttonMenu_@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * fonMenu_" (?fonMenu_@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char * fontDestroyer_" (?fontDestroyer_@@3PADA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "public: static bool SNAKE::Snake_Obj::GameOver" (?GameOver@Snake_Obj@SNAKE@@2_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class Fruct::Fructs_ * fruct" (?fruct@@3PAVFructs_@Fruct@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct HFONT__ * font" (?font@@3PAUHFONT__@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class Quad * LoaderTexture" (?LoaderTexture@@3PAVQuad@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class Background * back" (?back@@3PAVBackground@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class SNAKE::Snake_Obj * snake" (?snake@@3PAVSnake_Obj@SNAKE@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool changeFruct" (?changeFruct@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct <unnamed-type-s> (* Vector2Head)[20]" (?Vector2Head@@3PAY0BE@U<unnamed-type-s>@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct <unnamed-type-s> (* Vector2Tail)[20]" (?Vector2Tail@@3PAY0BE@U<unnamed-type-s>@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct <unnamed-type-s> (* Vector2PosFruct)[20]" (?Vector2PosFruct@@3PAY0BE@U<unnamed-type-s>@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool firstRun" (?firstRun@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool ismod" (?ismod@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * head" (?head@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * body" (?body@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * tail" (?tail@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * fonts" (?fonts@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * life" (?life@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * fon" (?fon@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * fructTexture" (?fructTexture@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class Font * ourtext" (?ourtext@@3PAVFont@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * logo" (?logo@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * buttonMenu" (?buttonMenu@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * fonMenu" (?fonMenu@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "unsigned int fontbase" (?fontbase@@3IA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::State" (?State@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float * Data::menufade" (?menufade@Data@@3PAMA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool * Data::keys" (?keys@Data@@3PA_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct HGLRC__ * Data::hRC" (?hRC@Data@@3PAUHGLRC__@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct HWND__ * Data::hWnd" (?hWnd@Data@@3PAUHWND__@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float * Data::menu_items_fade" (?menu_items_fade@Data@@3PAMA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "char (* Data::menu_items)[15]" (?menu_items@Data@@3PAY0P@DA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::Scale" (?Scale@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::IntervalTimer" (?IntervalTimer@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::IntervalBonus" (?IntervalBonus@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::countFructs" (?countFructs@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::LevelSpeed" (?LevelSpeed@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::Level" (?Level@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct HDC__ * Data::hDC" (?hDC@Data@@3PAUHDC__@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::high" (?high@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::lives" (?lives@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool Data::blend" (?blend@Data@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::id" (?id@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool Data::GameOver" (?GameOver@Data@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool Data::Winner" (?Winner@Data@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "bool Data::Starting" (?Starting@Data@@3_NA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthScore" (?depthScore@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthLevel" (?depthLevel@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthFruct" (?depthFruct@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthText" (?depthText@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthSnake" (?depthSnake@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::stepdepth" (?stepdepth@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::retFructDepth" (?retFructDepth@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "float Data::depthGraphLog" (?depthGraphLog@Data@@3MA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "struct Texture * texture" (?texture@@3PAUTexture@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "class LogSpace::CLog logFile" (?logFile@@3VCLog@LogSpace@@A) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::wf" (?wf@Data@@3HA) already defined in InitSystem.obj
+     1>Source.obj : error LNK2005: "int Data::hf" (?hf@Data@@3HA) already defined in InitSystem.obj
+     1>D:\GitHub\2D Snake\2D-Snake\Debug\Snake-v3.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "D:\GitHub\2D Snake\2D-Snake\Snake-v3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.92
