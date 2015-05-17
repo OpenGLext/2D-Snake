@@ -1,5 +1,5 @@
 //#include <Windows.h>
-#include "D:\\Äâèæêè\freeglut-2.8.1\include\GL\freeglut.h"
+#include "D:\\Ã„Ã¢Ã¨Ã¦ÃªÃ¨\freeglut-2.8.1\include\GL\freeglut.h"
 #include "InitSystem.h"
 #include "Draws.h"
 #include "Keyboard.h"
@@ -28,12 +28,9 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,PSTR pCmdLine,int
 	glutCreateWindow("OpenGL 3D System");
 	InitGL();
 	glutDisplayFunc(NewDraw);
-	//glutDisplayFunc(OutHigh);
-	
 	glutKeyboardFunc(getkeys_down);
-	//glutIdleFunc(ProcessMenu);
 	glutTimerFunc(Data::IntervalTimer,glutTimer,Data::id); 
-	//glutTimerFunc(Data::IntervalTimer,glutTimerSnake,Data::id); 
+
 	
 	glutMainLoop();
 
